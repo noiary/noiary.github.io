@@ -8,19 +8,40 @@
       margin: 0;
       height: 100vh;
       display: flex;
-      justify-content: center; /* 水平居中 */
-      align-items: center;     /* 垂直居中 */
+      flex-direction: column;  /* 垂直排布 */
+      justify-content: center;
+      align-items: center;
       background-color: #0f1117;
+      color: #ffffff;
+      font-family: "Segoe UI", sans-serif;
     }
 
     h1 {
       font-size: 48px;
-      color: #00bfff; /* 冰蓝色 */
-      font-family: "Segoe UI", sans-serif;
+      color: #00bfff;
+      margin-bottom: 20px;
+    }
+
+    .poem {
+      white-space: pre-line; /* 保留换行 */
+      text-align: center;
+      max-width: 600px;
+      line-height: 1.8;
+      color: #d3d3d3;
+      font-size: 18px;
     }
   </style>
 </head>
 <body>
   <h1>hi i'm Max :)</h1>
+  <div class="poem">
+    初识Java，悸动心弦；<br>
+    恋上Android，难舍难分；<br>
+    偶遇Python，如花般灿烂；<br>
+    邂逅Dart，若柳轻拂；<br>
+    迷上Web，心生涟漪；<br>
+    沉醉Spring，念念不忘；<br>
+    牵手Kotlin，相伴至今。
+  </div>
 </body>
 </html>
